@@ -1,4 +1,24 @@
 body {
   font-family: "SUIT";
-  font-weight: 300;
+  font-weight: 700;
+}
+
+.menu {
+  color: gray;
+  font-size: 36px;
+  border: 5px dashed green;
+}
+
+.menu li {
+  background-color: pink;
+}
+
+li.pick {
+  background-color: yellow;
+}
+
+/* .menu a 도 가능하다.
+목적지로 가기 위해서는 정거장을 지나서 가야 더 빨리 도착한다. */
+.menu li a {
+  color: inherit;
 }
